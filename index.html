@@ -1,11 +1,83 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myResume</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" content="notranslate" />
+  <link rel="stylesheet" href="./main.css">
+  <script type="text/javascript" src="script.js"></script>
+  <title>myResume</title>
 </head>
-<body>
-    Hello World!!
+
+<header>
+  <div class="container">
+    <ul class="navbar-nav">
+      <li><a href="./index.html" title="">01 : Home</a></li>
+      <li><a href="./about.html" title="">02 : About me</a></li>
+      <li><a href="./works.html" title="">03 : Works</a></li>
+      <li><a href="./contact.html" title="">04 : Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<body class="cuerpo">
+  <div class="hero-full-container background-image-container white-text-container"
+    style="background-image: url('./assets/images/fondo.jpg')">
+    <div class="container">
+      <div class="conteiner-type">
+        <h1>
+          <span is="type-async" id="type-text">...</span>
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <script>
+      async function init() {
+      const node = document.querySelector("#type-text")
+
+      await sleep(1000)
+      node.innerText = ""
+      await node.type('Hola, ')
+
+      while (true) {
+        await node.type('Bienvenido_a_mi_pagina')
+        await sleep(2000)
+        await node.delete('Bienvenido_a_mi_pagina')
+      }
+    }
+    // Source code 🚩
+
+    const sleep = time => new Promise(resolve => setTimeout(resolve, time))
+
+    class TypeAsync extends HTMLSpanElement {
+      get typeInterval() {
+        const randomMs = 100 * Math.random()
+        return randomMs < 50 ? 10 : randomMs
+      }
+
+      async type(text) {
+        for (let character of text) {
+          this.innerText += character
+          await sleep(this.typeInterval)
+        }
+      }
+
+      async delete(text) {
+        for (let character of text) {
+          this.innerText = this.innerText.slice(0, this.innerText.length - 1)
+          await sleep(this.typeInterval)
+        }
+      }
+    }
+
+    customElements.define('type-async', TypeAsync, { extends: 'span' })
+
+
+    init()
+  </script>
 </body>
+
+
 </html>
