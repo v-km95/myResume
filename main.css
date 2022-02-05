@@ -49,7 +49,15 @@ body.cuerpo {
 #site-border-bottom {
 	bottom: 0
 }
-
+.navbar{
+	position: absolute;
+	height: 5vh;
+	width: 100vw;
+	top: 0;
+	z-index: 100;
+	margin: 10px;
+	background-color: aliceblue;
+}
 .contenedor1{
 	position: fixed;
 	height: 10vh;
@@ -150,6 +158,6 @@ a.button {
 }
 
 .contenedor-imagen{
-	width: 100vw;
-	margin: 15vh 20vw
+	position: relative;
+	margin: 10vh 20vw;
 }
