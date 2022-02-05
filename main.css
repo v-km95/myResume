@@ -59,6 +59,7 @@ body.cuerpo {
 .contenedor1 ul{
 	display: flex;
 	list-style: none;
+	padding: 0;
 }
 .contenedor1 ul li{
     color: white;
@@ -71,7 +72,7 @@ body.cuerpo {
 	font-size: 1.4em;
 }
 
-@media (min-width:400px){
+@media (min-width:350px){
 	.contenedor1 ul li{
 		color: white;
 		display: flex;
@@ -93,7 +94,7 @@ body.cuerpo {
 		text-decoration: none;
 		height: 5vh;
 		width: 15vw;
-		font-size: 1.4em;
+		font-size: 1.7em;
 	}
 }
 
@@ -120,7 +121,7 @@ a.button {
 	margin: 0px 20vw;
 }
 
-@media (min-width:400px){
+@media (min-width:350px){
 	.contenedor-texto{
 		position: fixed;
 		top: 7vh;
