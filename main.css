@@ -4,6 +4,7 @@ body {
 	height: 100vh;
 	width: 100vw;
 	overflow: hidden;
+	background-color: rgb(100, 100, 100);
 }
 
 body.cuerpo {
@@ -113,6 +114,12 @@ a.button {
 	height: auto
 }
 
+.img-responsive1 {
+	display: block;
+	max-width: 25%;
+	height: auto
+}
+
 .contenedor-texto{
 	position: fixed;
 	top: 50vh;
@@ -140,4 +147,9 @@ a.button {
 		width: 100vw;
 		margin: 0px 20vw;
 	}
+}
+
+.contenedor-imagen{
+	width: 100vw;
+	margin: 15vh 20vw
 }
