@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./main.css">
-  <script type="text/javascript" src="script.js"></script>
+  <script src='https://s3.amazonaws.com/myadvobuck/static/libs/typed.min.js'></script>
   <title>myResume</title>
 </head>
 
@@ -25,10 +25,30 @@
       </div>
     </nav>
   </header>
+
+  <div class="contenedor-texto">
+    <p>Hola,</p>
+    <div id="typed-strings">
+      <p>Soy Victor Morales</p>
+      <p>Ingeniero en computacion</p>
+    </div>
+    <span id="typed"></span>
+  </div>
+
   <div class="">
     <img class="img-responsive" src="./assets/images/FKLdbh3VUAYJA9U.jfif" alt="">
   </div>
-</body>
 
+  <script>
+    var typed = new Typed('#typed', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 60,
+      backSpeed: 60,
+      backDelay: 500,
+      startDelay: 1000,
+      loop: true,
+    });
+  </script>
+</body>
 
 </html>
