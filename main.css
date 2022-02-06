@@ -133,7 +133,7 @@ a.button {
 
 .img-responsive1 {
 	display: block;
-	max-width: 25%;
+	max-width: 100%;
 	height: auto
 }
 
@@ -166,7 +166,33 @@ a.button {
 	}
 }
 
+.contenedor-inicial{
+	position: absolute;
+	top: 5vh;
+	background-color: aqua;
+	width: 100vw;
+	height: 10vh;
+	margin: 10px 10px;
+}
+
 .contenedor-imagen{
-	position: relative;
-	margin: 10vh 20vw;
+	stroke: none;
+}
+
+.contenedor{
+	background-color: blueviolet;
+	margin: 2vh 20vw;
+}
+
+.cont-col1{
+	width: 60%;
+	background-color: aliceblue;
+}
+
+.cont-col2{
+	width: 40%;
+}
+
+.Row{
+	display: flex
 }
