@@ -133,8 +133,9 @@ a.button {
 
 .img-responsive1 {
 	display: block;
-	max-width: 100%;
-	height: auto
+	max-width: 75%;
+	height: auto;
+	margin: auto;
 }
 
 .contenedor-texto{
@@ -195,4 +196,17 @@ a.button {
 
 .Row{
 	display: flex
+}
+
+.miTitulo{
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+}
+
+.texto-contenedor{
+	color: black;
+	font-size: 1.3em;
+	display: flex;
+	margin: 25% 0%;
 }
