@@ -5,8 +5,6 @@ body {
 	margin: 0;
 	padding: 0;
 	background: linear-gradient(to bottom right, #ffffff 0%, #666699 100%);
-
-
 }
 
 #site-border-left,
@@ -52,7 +50,7 @@ body {
 	width: 100vw;
 	top: 0;
 	z-index: 100;
-	margin: 10px 10px 0px 10px;
+	margin: 10px 0px 0px 0px;
 	background-color: black;
 	padding: 0px 0px 0px 19vw;
 	border-bottom: solid 1px;
@@ -169,10 +167,10 @@ a.button {
 .contenedor-inicial{
 	position: absolute;
 	top: 5vh;
-	background-color: aqua;
+	/*background-color: aqua;*/
 	width: 100vw;
 	height: 10vh;
-	margin: 10px 10px;
+	margin: 10px 0px;
 }
 
 .contenedor-imagen{
