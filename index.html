@@ -9,7 +9,7 @@
   <title>myResume</title>
 </head>
 
-<body class="cuerpo" style="overflow: auto;">
+<body class="cuerpo" style="overflow-x: hidden; overflow-y: hidden;">
   <div id="site-border-left"></div>
   <div id="site-border-right"></div>
   <div id="site-border-top"></div>
@@ -21,23 +21,26 @@
         <ul>
           <li><a class="button" href="./index.html">Home</a></li>
           <li><a class="button" href="./about.html">Perfil</a></li>
-          <li><a class="button" href="./index.html">Contacto</a></li>
+          <li><a class="button" href="./contact.html">Contacto</a></li>
         </ul>
     </nav>
   </header>
 
-  <div class="contenedor-texto">
-    <p>Hola,</p>
-    <div id="typed-strings">
-      <p>Soy Victor Morales</p>
-      <p>Ingeniero en computación</p>
+  <div class="contenedor-inicial">
+    <img src="./assets/images/minimalistic.jpg" alt="">
+    <div class="contenedor">
+      <div class="contenedor-texto">
+        <p>Hola,</p>
+        <div id="typed-strings">
+          <p><strong>Bienvenido a mi</strong></p>
+          <p><strong>Portafolio online</strong></p>
+        </div>
+        <span id="typed"></span>
+      </div>
     </div>
-    <span id="typed"></span>
   </div>
 
-  <div class="">
-    <img class="img-responsive" src="./assets/images/FKLdbh3VUAYJA9U.jfif" alt="">
-  </div>
+  
 
   <script>
     var typed = new Typed('#typed', {

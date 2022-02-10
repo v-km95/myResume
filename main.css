@@ -1,8 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+
 body {
+	font-family: sans-serif,'Lato';
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	background-color: grey;
 }
 
 #site-border-left,
@@ -142,17 +143,14 @@ a.button {
 	position: fixed;
 	top: 50vh;
 	font-size: 2em;
-	width: 100vw;
-	margin: 0px 20vw;
+	color: white;
 }
 
 @media (min-width:350px){
 	.contenedor-texto{
 		position: fixed;
-		top: 7vh;
+		top: 10%;
 		font-size: 1em;
-		width: 100vw;
-		margin: 0px 20vw;
 	}
 	
 }
@@ -160,10 +158,8 @@ a.button {
 @media(min-width:1200px){
 	.contenedor-texto{
 		position: fixed;
-		top: 50vh;
-		font-size: 2em;
-		width: 100vw;
-		margin: 0px 20vw;
+		top: 40%;
+		font-size: 2.3em;
 	}
 }
 
