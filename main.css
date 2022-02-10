@@ -4,6 +4,9 @@ body {
 	font-family: sans-serif,'Lato';
 	margin: 0;
 	padding: 0;
+	background: linear-gradient(to bottom right, #ffffff 0%, #666699 100%);
+
+
 }
 
 #site-border-left,
@@ -143,14 +146,14 @@ a.button {
 	position: fixed;
 	top: 50vh;
 	font-size: 2em;
-	color: rgb(247, 1, 1);
+	color: white;
 }
 
 @media (min-width:350px){
 	.contenedor-texto{
 		position: fixed;
-		top: 10%;
-		font-size: 1em;
+		top: 30%;
+		font-size: 1.2em;
 	}
 	
 }
