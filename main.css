@@ -143,7 +143,7 @@ a.button {
 	position: fixed;
 	top: 50vh;
 	font-size: 2em;
-	color: white;
+	color: rgb(247, 1, 1);
 }
 
 @media (min-width:350px){
@@ -179,6 +179,18 @@ a.button {
 .contenedor{
 	background-color: blueviolet;
 	margin: 2vh 20vw;
+}
+
+@media(min-width:350px){
+	.contenedor{
+		margin: 2vh 0;
+	}
+}
+
+@media(min-width:800px){
+	.contenedor{
+		margin: 2vh 20vw;
+	}
 }
 
 .cont-col1{
