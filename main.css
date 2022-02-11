@@ -204,7 +204,9 @@ a.button {
 }
 
 .Row{
-	display: flex
+	display: flex;
+	background-color: #cccccc;
+	
 }
 
 .miTitulo{
@@ -218,4 +220,15 @@ a.button {
 	font-size: 1.3em;
 	display: flex;
 	margin: 25% 0%;
+}
+
+.texto-titulo-cont{
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.texto-subtitulo-cont{
+	text-align: center;
+	text-decoration: underline;
+	margin: 5px 0px;
 }
