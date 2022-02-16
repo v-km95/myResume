@@ -129,7 +129,7 @@ a.button {
 
 .img-responsive {
 	display: block;
-	max-width: 100%;
+	max-width: 50%;
 	height: auto
 }
 
@@ -167,19 +167,14 @@ a.button {
 .contenedor-inicial{
 	position: absolute;
 	top: 5vh;
-	/*background-color: aqua;*/
 	width: 100vw;
 	height: 10vh;
 	margin: 10px 0px;
 }
 
-.contenedor-imagen{
-	stroke: none;
-}
-
 .contenedor{
 	background-color: blueviolet;
-	margin: 2vh 20vw;
+	margin: 2vh 10vw;
 }
 
 @media(min-width:350px){
@@ -196,7 +191,8 @@ a.button {
 
 .cont-col1{
 	width: 60%;
-	background-color: aliceblue;
+	padding-left: 2vw;
+    margin-top: 50;
 }
 
 .cont-col2{
@@ -206,6 +202,7 @@ a.button {
 .Row{
 	display: flex;
 	background-color: #cccccc;
+	border-radius: 20px;
 	
 }
 
