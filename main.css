@@ -4,7 +4,8 @@ body {
 	font-family: sans-serif,'Lato';
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(to bottom right, #ffffff 0%, #666699 100%);
+	background: rgb(47,71,96);
+	background: radial-gradient(circle, rgba(47,71,96,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 #site-border-left,
@@ -129,15 +130,9 @@ a.button {
 
 .img-responsive {
 	display: block;
-	max-width: 50%;
-	height: auto
-}
-
-.img-responsive1 {
-	display: block;
-	max-width: 75%;
-	height: auto;
-	margin: auto;
+	max-height: 300;
+	max-width: 80%;
+	margin: 5px auto;
 }
 
 .contenedor-texto{
@@ -201,7 +196,7 @@ a.button {
 
 .Row{
 	display: flex;
-	background-color: #cccccc;
+	background-color: white;
 	border-radius: 20px;
 	
 }
@@ -212,20 +207,21 @@ a.button {
 	font-size: 1.5em;
 }
 
-.texto-contenedor{
-	color: black;
-	font-size: 1.3em;
-	display: flex;
-	margin: 25% 0%;
-}
-
 .texto-titulo-cont{
 	text-align: center;
 	margin: 5px 0px;
+	font-size: 1.3em;
 }
 
 .texto-subtitulo-cont{
 	text-align: center;
 	text-decoration: underline;
 	margin: 5px 0px;
+	font-size: 1.3em;
+}
+
+.texto-cont{
+	color: black;
+	font-size: 1.3em;
+	display: flex;
 }
