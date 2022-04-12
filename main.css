@@ -100,7 +100,7 @@ body {
     .topnav.responsive a {
       float: none;
       display: block;
-      text-align: left;
+      text-align: center;
     }
   }
 
@@ -222,7 +222,7 @@ a.button {
 }
 
 .contenedor-inicial{
-	position: absolute;
+	position: static;
 	top: 5vh;
 	width: 100vw;
 	height: 10vh;
