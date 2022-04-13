@@ -48,7 +48,7 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: black;
+    background-color: rgba(0,0,0,0.8);
     overflow: hidden;
   }
   
@@ -65,7 +65,7 @@ body {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: rgb(97, 97, 97);
+    background-color: #fbfbfd;
     color: black;
   }
   
@@ -100,7 +100,7 @@ body {
     .topnav.responsive a {
       float: none;
       display: block;
-      text-align: center;
+      text-align: left;
     }
   }
 
@@ -241,7 +241,7 @@ a.button {
 
 @media(min-width:800px){
 	.contenedor{
-		margin: 2vh 20vw;
+		margin: 2vh 12vw;
 	}
 }
 
@@ -257,7 +257,7 @@ a.button {
 
 .Row{
 	display: flex;
-	background-color: rgb(207, 207, 207);
+	background-color: #fbfbfd;
 	border-radius: 20px;
 	
 }
