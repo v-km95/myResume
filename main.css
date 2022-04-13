@@ -241,20 +241,38 @@ a.button {
 
 @media(min-width:800px){
 	.contenedor{
-		margin: 2vh 12vw;
+		margin: 2vh 15vw;
 	}
 }
 
 .cont-col1{
-	width: 60%;
-	padding-left: 2vw;
+	width: 55%;
     margin-top: 50;
 }
 
 .cont-col2{
-	width: 40%;
+	width: 45%;
 }
 
+.cont-midcol{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.cont-col4x1{
+	max-width: 300px;
+	margin: 10px 15px;
+}
+.cont-col4x1 img{
+	-webkit-filter: contrast(200%) grayscale(100%);
+	filter: contrast(200%) grayscale(100%);
+	-webkit-transition: all .1s linear;
+	-o-transition: all .1s linear;
+	transition: all .1s linear
+}
+.cont-col4x1 img:hover{
+	filter: none;
+}
 .Row{
 	display: flex;
 	background-color: #fbfbfd;
@@ -262,16 +280,16 @@ a.button {
 	
 }
 
-.miTitulo{
+#texto-h2{
 	text-align: center;
-	color: white;
-	font-size: 1.5em;
+	margin: 2	5px 0px;
+	font-size: 2.5em;
 }
 
 .texto-titulo-cont{
 	text-align: center;
 	margin: 5px 0px;
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 
 .texto-subtitulo-cont{
