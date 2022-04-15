@@ -175,17 +175,23 @@ body {
 
 .cont-col4x1 img{
 	position: relative;
-	max-width: 250px;
-	margin: 20px 38px;
+	display: block;
+	max-height: 300;
+	max-width: 80%;
+	margin: 5px auto;
+	/*max-width: 250px;
+	margin: 20px 38px;*/
 	
 }
 
 .Row{
 	display: flex;
+	justify-content: center;
 	background-color: #fbfbfd;
 	border-radius: 20px;
 	
 }
+
 
 #texto-h2{
 	text-align: center;
