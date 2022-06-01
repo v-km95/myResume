@@ -179,9 +179,25 @@ body {
 	max-height: 300;
 	max-width: 80%;
 	margin: 5px auto;
-	/*max-width: 250px;
-	margin: 20px 38px;*/
 	
+}
+
+@media(min-width:350px){
+	.cont-col4x1 img{
+		max-height: 72;
+	}
+}
+
+@media(min-width:800px){
+	.cont-col4x1 img{
+		max-height: 118;
+	}
+}
+
+@media(min-width:1200px){
+	.cont-col4x1 img{
+		max-height: 300;
+	}
 }
 
 .Row{
@@ -197,6 +213,18 @@ body {
 	text-align: center;
 	margin: 2	5px 0px;
 	font-size: 2.5em;
+}
+
+@media(min-width:350px){
+	#texto-h2{
+		font-size: 1em;
+	}	
+}
+
+@media(min-width:800px){
+	#texto-h2{
+		font-size: 2.5em;
+	}
 }
 
 .texto-titulo-cont{
