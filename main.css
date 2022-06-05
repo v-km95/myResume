@@ -295,7 +295,7 @@ body {
 	filter: none;
 }
 
-.contacto{
+.contacto {
 	justify-content: left;
 	text-align: left;
 	background-color: #fbfbfd;
@@ -303,42 +303,81 @@ body {
 	padding: 10px 0px;
 }
 
-.contacto h2,h4,p{
+.contacto h2,
+h4,
+p {
 	margin: 5px 30px;
 }
 
-.float-area{
-	height:100vh;
+.float-area {
+	height: 100vh;
 	display: flex;
-	flex-direction:column;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-  }
+}
 
-  @media(min-width:350px) {
-	  .float-area{
+@media(min-width:350px) {
+	.float-area {
 		align-items: center;
 		justify-content: center;
-	  }
-  }
-
-  @media(min-width:800px) {
-	.float-area{
-	  align-items: right;
-	  justify-content: center;
 	}
 }
-  
-  .floating-img{
+
+@media(min-width:800px) {
+	.float-area {
+		align-items: end;
+		justify-content: center;
+	}
+}
+
+.floating-img {
 	transform: translateY(-10%);
 	animation: floater 4.5s infinite;
 	transition: ease 0.5s;
 	max-width: 300px;
-  }
-  
-  
-  
-  @keyframes floater {
-	0%{transform: translateY(-10%);transition: ease 0.5s;}
-	50%{transform: translateY(10%);transition: ease 0.5s;}
-  }
+}
+
+@media(min-width:350px) {
+	.floating-img {
+		max-width: 180px;
+	}
+}
+
+@media(min-width:800px) {
+	.floating-img {
+		max-width: 500px;
+	}
+}
+
+@keyframes floater {
+	0% {
+		transform: translateY(-10%);
+		transition: ease 0.5s;
+	}
+
+	50% {
+		transform: translateY(10%);
+		transition: ease 0.5s;
+	}
+}
+
+#p-float {
+	z-index: 99;
+	margin-top: 20px;
+	color: #bebebe;
+	font-size: .8em;
+	text-decoration: none;
+}
+
+@media(min-width:350px) {
+	#p-float {
+		font-size: .5em;
+	}
+}
+
+@media(min-width:800px) {
+	#p-float {
+		font-size: .8em;
+	}
+}
