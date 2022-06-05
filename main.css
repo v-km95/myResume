@@ -314,10 +314,24 @@ body {
 	align-items: center;
 	justify-content: center;
   }
+
+  @media(min-width:350px) {
+	  .float-area{
+		align-items: center;
+		justify-content: center;
+	  }
+  }
+
+  @media(min-width:800px) {
+	.float-area{
+	  align-items: right;
+	  justify-content: center;
+	}
+}
   
   .floating-img{
 	transform: translateY(-10%);
-	animation: floater 1.5s infinite;
+	animation: floater 4.5s infinite;
 	transition: ease 0.5s;
 	max-width: 300px;
   }
