@@ -153,6 +153,8 @@ body {
 
 .contenedor {
 	margin: 2vh 10vw;
+	background-color: #fbfbfd;
+	border-radius: 20px;
 }
 
 @media(min-width:350px) {
@@ -163,6 +165,22 @@ body {
 
 @media(min-width:800px) {
 	.contenedor {
+		margin: 2vh 15vw;
+	}
+}
+
+.contenedor1 {
+	margin: 2vh 10vw;
+}
+
+@media(min-width:350px) {
+	.contenedor1 {
+		margin: 2vh 0;
+	}
+}
+
+@media(min-width:800px) {
+	.contenedor1 {
 		margin: 2vh 15vw;
 	}
 }
@@ -179,6 +197,20 @@ body {
 .cont-midcol {
 	width: 60%;
 	margin: 0 auto;
+}
+
+@media(min-width:350px) {
+	.cont-midcol {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media(min-width:800px) {
+	.cont-midcol {
+		width: 60%;
+		margin: 0 auto;
+	}
 }
 
 .cont-col4x1 img {
@@ -211,8 +243,8 @@ body {
 .Row {
 	display: flex;
 	justify-content: center;
-	background-color: #fbfbfd;
-	border-radius: 20px;
+	/*background-color: #fbfbfd;
+	border-radius: 20px;*/
 
 }
 
@@ -225,7 +257,7 @@ body {
 
 @media(min-width:350px) {
 	#texto-h2 {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 }
 
@@ -235,10 +267,23 @@ body {
 	}
 }
 
-.texto-titulo-cont {
+.texto-h3 {
 	text-align: center;
-	margin: 5px 0px;
-	font-size: 1.5em;
+	font-size: 2.5em;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+
+@media(min-width:350px) {
+	.texto-h3 {
+		font-size: 1.3em;
+	}
+}
+
+@media(min-width:800px) {
+	.texto-h3 {
+		font-size: 2.5em;
+	}
 }
 
 .texto-subtitulo-cont {
